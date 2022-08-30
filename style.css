@@ -1,0 +1,19 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+background-color: mediumslateblue;
+}
+
+canvas {
+    animation-name: shreenithi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shreenithi {
+    0% {box-shadow: 1px 1px 38px rgb(255, 0, 119)}
+    50% {box-shadow: 1px 1px 38px rgb(167, 34, 149)}
+    100% {box-shadow: 1px 1px 38px palevioletred}
+}
